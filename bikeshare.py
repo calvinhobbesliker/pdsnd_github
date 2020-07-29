@@ -103,8 +103,13 @@ def time_stats(df):
     
     # TO DO: display the most common start hour
     df['starting_hour'] = pd.DatetimeIndex(df['Start Time']).hour
-    popular_hour = str(int(df.mode()['starting_hour'][0]))+':00'
-    print('The most popular starting hour is ', popular_hour)
+    popular_hour = str(int(df.mode()['starting_hour'][0]))
+	if popular_hour < 12:
+		print('The most popular starting hour is ', popular_hour, ' AM')
+	elif popular_hour == 12:
+		print('The most popular starting hour is ', popular_hour, ' PM')
+	else:
+		print('The most popular starting hour is ', popular_hour-12, ' PM')
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
