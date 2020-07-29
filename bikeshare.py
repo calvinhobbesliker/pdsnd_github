@@ -187,6 +187,7 @@ def user_stats(df):
 #print(user_stats(pd.read_csv(CITY_DATA['chicago'])))
 
 def main():
+	"""Main function to run the interactive program"""
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
