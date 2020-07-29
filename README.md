@@ -5,7 +5,7 @@ July 29, 2020
 Analyzing Bikeshare Data
 
 ### Description
-This Python pprject analyzes bikeshare data from three cities
+This Python project analyzes bikeshare data from three cities: Chicago, New York City, and Washington DC.
 
 ### Files used
 bikeshare.py
