@@ -2,10 +2,10 @@
 July 29, 2020
 
 ### Project Title
-ANalyzing Bikeshare Data
+Analyzing Bikeshare Data
 
 ### Description
-This Python porject analyzes bikeshare data from three cities
+This Python pprject analyzes bikeshare data from three cities
 
 ### Files used
 bikeshare.py
@@ -14,5 +14,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thanks to Udacity!
