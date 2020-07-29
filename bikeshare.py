@@ -19,16 +19,19 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     print('Choose a city: Chicago, New York City, or Washington.')
     city = input()
+	print('You have chosen ', city)
     city = city.lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
     print('Choose a month between January and June to filter by, or type "All" to analyze data from all months.')
     month = input()
+	print('You have chosen ', month)
     month = month.lower()
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     print('Choose a day of the week to filter by, or type "All" to analyze data from all days of the week.')
     day = input()
+	print('You have chosen ', day)
     day = day.lower()
 
     print('-'*40)
